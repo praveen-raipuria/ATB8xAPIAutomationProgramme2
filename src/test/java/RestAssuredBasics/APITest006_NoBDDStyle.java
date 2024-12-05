@@ -9,11 +9,12 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
 public class APITest006_NoBDDStyle {
+
     static  RequestSpecification r = RestAssured.given();
 
     @Description("TC1 - NonBDDStyleGET - Positive Testcase")
     @Test
-    public void test_NonBDDStyleGET_posditive(){
+    public void test_NonBDDStyleGET_positive(){
         r.baseUri("https://api.zippopotam.us");
         r.basePath("/IN/388620");
         r.when().log().all().get();
@@ -34,4 +35,3 @@ public class APITest006_NoBDDStyle {
 
 
 }
-

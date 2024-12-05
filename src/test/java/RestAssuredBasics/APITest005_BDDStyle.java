@@ -1,9 +1,9 @@
-package com.thetestingacademy.RestAssuredBasics.GET;
+package RestAssuredBasics;
 
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 
-public class APITest005_BDDStyleGET {
+public class APITest005_BDDStyle {
     @Test
     public void test_GET_Req_POSITIVE() {
 

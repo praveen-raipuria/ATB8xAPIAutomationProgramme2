@@ -33,25 +33,13 @@
     </dependency>
 
 
+    <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
     <dependency>
       <groupId>io.qameta.allure</groupId>
-      <artifactId>allure-java-commons</artifactId>
-      <version>2.20.1</version> <!-- Use the latest version available -->
+      <artifactId>allure-testng</artifactId>
+      <version>2.29.0</version>
     </dependency>
 
-
-
   </dependencies>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>9</source>
-          <target>9</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+
 </project>
