@@ -48,6 +48,13 @@
       <scope>test</scope>
     </dependency>
 
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-junit5</artifactId> <!-- or allure-testng -->
+      <version>2.21.0</version>
+    </dependency>
+
+
 
 
   </dependencies>
