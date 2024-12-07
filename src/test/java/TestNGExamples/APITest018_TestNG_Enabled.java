@@ -1,6 +1,7 @@
 package TestNGExamples;
 
-import org.junit.Assert;
+
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class APITest018_TestNG_Enabled {
