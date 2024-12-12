@@ -4,9 +4,10 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class APITest017_TestNG_Parameter {
+
     @Parameters("browser")
     @Test
-    void demo1(String value) {
+     void demo1(String value) {
         System.out.println("Browser is " + value);
         // Open the Browser and select dadadada
         if (value.equalsIgnoreCase("chrome")) {
@@ -20,4 +21,3 @@ public class APITest017_TestNG_Parameter {
 
 
 }
-
