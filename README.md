@@ -3,6 +3,7 @@ Rest Assured Learning
 Rest Assured Basics
 Rest Assured Advance Concepts
 
+
 Project - API Automation
 
 Programming - Java
@@ -21,10 +22,10 @@ Manage your Testcases - TestNG
 CI/CD
 Version Control -(Source) - Git
 Run your Code(Trigger), CI/CD - Jenkins
-Store your Code - Online -Github.com , Gitlab, Bitbucket
+Store your Code - Online - Github.com , Gitlab, Bitbucket
 Database - MySQL connector (Java lib) , JDBC connector
-
 Dependencies
+
 Rest Assured
 TestNG
 Allure Report
